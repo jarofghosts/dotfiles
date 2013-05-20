@@ -7,6 +7,6 @@ set -s escape-time 0
 #set -g status-fg white
 #set -g status-left ""
 #set -g status-right "#[bg=yellow,fg=black] ❐ #S #[fg=white]"
-#setw -g window-status-current-attr "bold"
+setw -g window-status-current-attr "bold"
 #setw -g window-status-current-bg "red"
 #setw -g window-status-current-fg "white"
