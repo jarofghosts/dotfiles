@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/jarofghosts/Projects/solomon-exam-prep/.git'
+let g:netrw_dirhist_2='/etc/php5'
+let g:netrw_dirhist_3='/etc/php5/fpm'
+let g:netrw_dirhist_4='/etc/php5/fpm/pool.d'
