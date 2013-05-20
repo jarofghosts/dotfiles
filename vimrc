@@ -1,3 +1,6 @@
+syntax on
+set background=dark
+colorscheme solarized
 set autoindent
 set number
 set shiftwidth=2
