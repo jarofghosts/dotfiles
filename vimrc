@@ -1,3 +1,5 @@
+syntax on
+set background=dark
 set autoindent
 set number
 set shiftwidth=2
