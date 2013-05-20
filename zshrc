@@ -45,3 +45,4 @@ plugins=(git debian autojump command-not-found npm tmux)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+source $HOME/.boxrc
