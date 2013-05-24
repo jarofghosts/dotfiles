@@ -44,5 +44,7 @@ plugins=(git debian autojump command-not-found npm tmux bower)
 
 source $ZSH/oh-my-zsh.sh
 
+tmux source-file ~/.tmuxrc
+
 # Customize to your needs...
 source $HOME/.boxrc
