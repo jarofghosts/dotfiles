@@ -3,3 +3,5 @@
 	email = me@jessekeane.me
 [core]
 	editor = vim
+[color]
+        ui = true
