@@ -1,4 +1,5 @@
 syntax on
+set t_Co=256;
 set background=dark
 set autoindent
 set encoding=utf8
@@ -8,7 +9,6 @@ set softtabstop=2
 set laststatus=2
 set expandtab
 set backspace=indent,eol,start
-" set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
@@ -17,7 +17,9 @@ call vundle#rc()
 Bundle 'bling/vim-airline'
 filetype plugin indent on
 
+let g:airline_theme='badwolf'
 let g:airline_left_sep = '»'
+let g:airline_right_sep = '«'
 " remove unused modes
 let g:airline_enable_fugitive=0
 let g:airline_enable_syntastic=0
