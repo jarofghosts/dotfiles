@@ -10,6 +10,7 @@ ZSH_THEME="ys"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias qc="~/qc.sh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
