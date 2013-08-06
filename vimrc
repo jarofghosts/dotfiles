@@ -4,6 +4,7 @@ set background=dark
 set autoindent
 set encoding=utf8
 set number
+colorscheme Tomorrow-Night-Eighties
 set shiftwidth=2
 set softtabstop=2
 set laststatus=2
