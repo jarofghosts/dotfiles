@@ -1,3 +1,8 @@
+unbind C-b
+set -g prefix C-s
+bind s send-prefix
+bind C-s if '! tmux last-pane' last-window
+
 set -g default-terminal "screen-256color"
 setw -g mode-keys vi
 set -g display-time 2000
