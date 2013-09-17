@@ -31,4 +31,4 @@ let g:airline_section_c=""
 let g:airline_section_x=""
 " put filetype in fifth section
 let g:airline_section_y="%Y"
-inoremap ;f <Esc>
+inoremap ;j <Esc>
