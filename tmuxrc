@@ -2,6 +2,11 @@ unbind C-b
 set -g prefix C-s
 bind s send-prefix
 bind C-s if '! tmux last-pane' last-window
+bind r source ~/.tmuxrc
+bind C-j resize-pane -D 10
+bind C-k resize-pane -U 10
+bind C-h resize-pane -L 10
+bind C-l resize-pane -R 10
 
 set -g default-terminal "screen-256color"
 setw -g mode-keys vi
